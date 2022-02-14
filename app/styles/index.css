@@ -1,0 +1,10 @@
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "sidebar content content content content content"
+    "sidebar footer footer footer footer footer";
+  grid-gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
